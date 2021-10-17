@@ -1,0 +1,147 @@
+/* GERAL */
+
+* {
+    font-family: 'ubuntu', sans-serif;
+}
+
+h4 {
+    color: #2E948A;
+}
+
+/* NAVEGAÇÃO */
+
+.navbar {
+    background-color: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: #104640 !important;
+}
+
+/* TEXTO */
+
+.title-home {
+    color: #FF4081;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.title-component {
+    color: #FF4081;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.selected-title-component {
+    color: #FF4081;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.home-title {
+    padding: 60px 0;
+}
+
+/* SECTION */
+
+.section-card {
+    padding: 60px 0;
+}
+
+/* BOTÃO */
+
+.btn-default {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 25px;
+    width: 233px;
+    border: none;
+    border-radius: 40px;
+    background: #419488;
+    transition: all 0.3s ease 0s;
+  }
+
+/* LINHA CINZA */
+
+.grey-line {
+    height: 5px; 
+    background: #C4C4C4;
+    margin-top: 60px;
+}
+
+.grey-line-aulas {
+    height: 3px; 
+    background: #C4C4C4;
+    margin-top: 60px;
+    padding: 0;
+}
+
+/* TABELA */
+
+.table-thead {
+    background-color: #EBEBEB;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.table-tbody {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* FORMULÁRIO */
+
+.form-curso {
+    width: 60%;
+}
+
+/* FOOTER */
+
+.footer {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 974px) {
+    .title-home {
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 974px) {
+    .selected-title-component {
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn {
+        display:block;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .img-fluid {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 974px) {
+    .form-curso {
+        width: 100%;
+    }
+}
+  

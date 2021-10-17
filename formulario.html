@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Customized CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+    </style>
+
+    <title>Dindin - Educação Financeira</title>
+
+</head>
+
+<body>
+
+    <head>
+        <!-- Início NavBar -->
+        <section role="navigation">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a href="#" class="navbar-brand">
+                        <img src="img/logo.svg" width="244">
+                    </a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                        data-target="#nav-principal" aria-controls="nav-principal" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="nav-principal">
+
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="" class="nav-link nav-font">CURSOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link nav-font">PAINEL ADMINISTRATIVO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <section>
+    </head> <!-- /Fim NavBar -->
+
+    <section class="section-card">
+        <div class="container">
+            <h2 class="title-component" style="margin-bottom: 30px;">Novo Curso</h2>
+            <div class="form-curso">
+                <form>
+                    <div class="mb-3">
+                        <label for="tituloCurso" class="form-label">Título do curso</label>
+                        <input type="text" class="form-control" id="tituloCurso" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Fique tranquilo, nós não vamos compartilhar seu e-mail com
+                            ninguém.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">Capa</label>
+                        <input class="form-control" type="file" id="formFile">
+                        <div id="imageHelp" class="form-text">Escolha uma imagem para ser a capa da sua aula.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="nomeProfessor" class="form-label">Nome do professor</label>
+                        <input type="text" class="form-control" id="nomeProfessor" aria-describedby="nomeProfessor">
+                    </div>
+                    <div class="mb-3">
+                        <label for="descricaoCurso" class="form-label">Descrição do curso</label>
+                        <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <h4>Aula 1</h4>
+                    <div class="mb-3">
+                        <label for="tituloAula" class="form-label">Título da aula</label>
+                        <input type="text" class="form-control" id="tituloAula" aria-describedby="tituloAula">
+                    </div>
+                    <div class="mb-3">
+                        <label for="linkAula" class="form-label">Link da aula</label>
+                        <input type="text" class="form-control" id="linkAula" aria-describedby="linkAula">
+                    </div>
+                    <div class="mb-3">
+                        <label for="descricaoAula" class="form-label">Descrição da aula</label>
+                        <textarea class="form-control" id="FormControlTextarea2" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-default" style="margin-top: 20px;">salvar</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" style="background-color: #2E948A; height: 207px;">
+        <div class="container">
+            <div class="row">
+                <a href="#" class="navbar-brand">
+                    <img src="img/logo2.svg" width="312">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
