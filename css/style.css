@@ -66,7 +66,31 @@ h4 {
     border-radius: 40px;
     background: #419488;
     transition: all 0.3s ease 0s;
-  }
+}
+
+.btn-default:hover {
+    color: white;
+    background: #104640;
+}
+
+.btn-default.nav-login {
+    color: #419488;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 25px;
+    width: 160px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 40px;
+    background: white;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-default.nav-login:hover {
+    font-weight: 700;
+    color: white;
+    background: #104640;
+}
 
 /* LINHA CINZA */
 
@@ -123,6 +147,27 @@ h4 {
     .selected-title-component {
         font-size: 40px;
         font-weight: 700;
+    }
+}
+
+@media (max-width: 974px) {
+    .btn-default.nav-login {
+        color: #419488;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: 25px;
+        width: 160px;
+        margin-left: 0px;
+        border: none;
+        border-radius: 40px;
+        background: white;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .btn-default.nav-login:hover {
+        font-weight: 700;
+        color: white;
+        background: #104640;
     }
 }
 
