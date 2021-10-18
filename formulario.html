@@ -13,6 +13,9 @@
     <!-- Customized CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+
     <!-- Google Fonts -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
@@ -71,15 +74,28 @@
                         <div id="imageHelp" class="form-text">Escolha uma imagem para ser a capa da sua aula.</div>
                     </div>
                     <div class="mb-3">
-                        <label for="nomeProfessor" class="form-label">Nome do professor</label>
-                        <input type="text" class="form-control" id="nomeProfessor" aria-describedby="nomeProfessor">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Nome do professor</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
                     </div>
                     <div class="mb-3">
                         <label for="descricaoCurso" class="form-label">Descrição do curso</label>
                         <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
                     </div>
 
-                    <h4>Aula 1</h4>
+                    <div class="d-flex mb-3" style="margin-top: 40px;">
+                        <h4 class="p-0">
+                            Aula 1
+                        </h4>
+                        <h4 class="ms-auto p-0">
+                            <i class="fas fa-arrow-circle-up"></i>
+                            <i class="fas fa-arrow-circle-down"></i>
+                        </h4>
+                    </div>
+                    </h4>
                     <div class="mb-3">
                         <label for="tituloAula" class="form-label">Título da aula</label>
                         <input type="text" class="form-control" id="tituloAula" aria-describedby="tituloAula">
